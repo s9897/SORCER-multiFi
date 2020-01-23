@@ -1,3 +1,11 @@
+
+package Homework;
+
+import sorcer.service.Context;
+import sorcer.service.ContextException;
+
+import java.rmi.RemoteException;
+
 public interface Modify {
 
    	public Context AddBrownSugar(Context context) throws RemoteException, ContextException; 
